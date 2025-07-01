@@ -1,0 +1,45 @@
+.contact {
+  display: grid;
+  grid-template-columns: 49.5% 1% 49.5%;
+}
+.form {
+  box-shadow: 15px 15px 15px rgb(104, 91, 91);
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 5px 10px;
+  background-color: var(--layout);
+}
+.gree {
+    background-image: url("../../assets/Panda-food.png");
+    background-size: cover;
+    width: 100%;
+    padding: 5%;
+    font-size: 24px;
+    box-shadow: 15px 15px 15px rgb(104, 91, 91);;
+}
+
+.inputStyle {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonStyle {
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: auto;
+  font-weight: 600;
+  background-color: var(--main-color);
+}
+
+@media (max-width: 500px) {
+  .contact {
+    grid-template-columns: auto;
+  }
+}

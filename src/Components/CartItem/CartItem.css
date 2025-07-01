@@ -1,0 +1,21 @@
+.action{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-action{
+    width: 20px;
+}
+.icon-action:hover{
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+
+input{
+    border-radius: 6px;
+    height: 30px;
+    text-align: center;
+}
+
+.img-food{
+    width: 80px;
+}

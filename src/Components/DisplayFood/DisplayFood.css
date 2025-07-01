@@ -1,0 +1,16 @@
+.food-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto
+}
+
+@media (max-width: 1023px){
+    .food-list{
+        grid-template-columns: auto auto auto
+    }
+}
+
+@media (max-width: 580px) {
+    .food-list{
+        grid-template-columns: auto
+    }
+}
